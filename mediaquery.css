@@ -1,0 +1,39 @@
+@media(max-width:900px){
+    .landing-page{
+        flex-wrap: wrap;
+    }
+}
+@media(max-width:850px){
+    .landing-page_text{
+        width: 80%;
+        padding-top: 10px;
+        text-align: center;
+    }
+}
+@media(max-width:799px){
+    .landing-page_text{
+        width: 80%;
+        text-align: center;
+    }
+}
+@media(max-width:532px){
+    .landing-page_plate img{
+        width: 250px;
+    }
+    .explore_para1{
+        font-size: 30px;
+        font-weight: 600;
+    }
+    
+    .explore_para2{
+        font-size: 20px;
+    }
+    .landing-page a{
+        font-size: 20px;
+    }
+}
+@media(max-width:390px){
+    .categories ul{
+        font-size: 20px;
+    }
+}
