@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <title>Contact|FlexyFood</title>
+  </head>
+  <body>
+
+    <header>
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+              <i class="fas fa-bars"></i>
+            </label>
+            <label class="logo">
+                <h1>FlexyFood</h1>
+            </label>
+            <ul class="nav-ul">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="index.html">Menu</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </nav>
+    </header>
+
+    <h1 class="contact">Contact Us</h1>
+    <form id="my-form" action="https://formspree.io/f/mrgndwng" method="POST">
+      <label>First Name:</label>
+      <input type="text" name="first_name" />
+      <label>Last Name:</label>
+      <input type="text" name="last_name" />
+      <label>Email:</label>
+      <input type="email" name="email" />
+      <label>Message:</label>
+      <input type="text" name="message" />
+      <button id="my-form-button">Submit</button>
+      <p id="my-form-status"></p>
+    </form>
+
+    <footer>
+        <div class="footer-flex">
+            <h1>FlexyFood</h1>
+            <ul class="footer-ul">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html">Menu</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+        </div>
+    </footer>
+
+  </body>
+</html>
